@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EasyLearn</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="flex justify-around w-full p-3">
+        <div class="logo text-2xl">EasyLearn</div>
+        <nav class="flex justify-center w-100 gap-4">
+          <ul
+            id="main-nav"
+            class="flex justify-center w-100 gap-6 p-0.5 text-xl"
+          >
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="blogs.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <a
+            id="register"
+            class="p-0.5 text-base rounded text-white ml-4"
+            href="registration.html"
+            ><button class="m-1">Join For Free</button></a
+          >
+          <!-- bars  -->
+
+          <div id="bars">
+            <i class="fa-solid fa-bars text-2xl text-white m-2"></i>
+          </div>
+        </nav>
+      </header>
+      <!-- bars -->
+      <div class="burger show w-full h-full">
+        <i
+          id="cross"
+          class="float-right fa-solid fa-xmark text-2xl text-white mr-4"
+        ></i>
+        <ul
+          class="text-right flex flex-col justify-center w-100 gap-6 text-xl mt-9 mr-4 text-white"
+        >
+          <li><a  href="index.html">Home</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="blogs.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <!-- main  -->
+      <div class="main-page flex gap-2 h-fit w-full py-4">
+        <div
+          class="text-container w-full h-screen flex flex-col justify-center"
+        >
+          <h1 class="text text-5xl text-black font-bold m-4 ml-8">
+            Learn Courses for Free in your free time..
+          </h1>
+          <a
+            id="register"
+            class="p-0.5 text-base rounded text-black ml-8 w-40 text-center"
+            href="registration.html"
+            ><button class="m-1">Join For Free</button></a
+          >
+        </div>
+
+        <div class="main-img h-screen">
+          <img
+            class=""
+            src="./images/excited-happy-woman-pointing-sideways.png"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <!-- thaughts -->
+      <div class="thaught w-full h-32" style="background-color: black">
+        <h1 class="h1text text-center w-full text-2xl text-red-600 px-12">
+          “Education is the passport to the future, for tomorrow belongs to
+          those who prepare for it today.”<br />
+          – Malcolm X
+        </h1>
+      </div>
+      <!-- course catagories  -->
+      <div class="courses">
+        <div class="desc w-fit m-10">
+          <h1 class="text-3xl font-bold ml-8">Course Catagories</h1>
+          <p class="text-xl font-bold ml-8">The Best Courses</p>
+        </div>
+        <div class="thaught groupOfCourses px-16 flex flex-wrap gap-6">
+          <!-- course cards section  -->
+        </div>
+        <!-- course section ends  -->
+      </div>
+      <div class="thaught flex-col text-5xl w-full h-32 mt-24">
+        <h1 class="h1text text-center w-full font-extrabold">Why choose us?</h1>
+        <h1 class="h1text text-center w-full text-xl px-12 py-2">
+          Unlock Your Potential with Our Comprehensive Learning Approach
+        </h1>
+      </div>
+      <div class="text w-full h-fit flex flex-wrap my-14 justify-center gap-4">
+        <div class="card w-[400px] h-[300px] justify-around p-5">
+          <h1 class="text-3xl font-bold">01</h1>
+          <p class="text-2xl font-bold txt-clr py-2">Expert-Crafted Learning</p>
+          <p class="text-sm font-bold">
+            Our team of accomplished engineers, with impressive coding profiles
+            across various programming platforms, hails from top tech companies
+            like Google, Amazon, Meta, and Microsoft. They also boast a proven
+            track record of successful teaching.
+          </p>
+        </div>
+        <div class="card w-[400px] h-[300px] justify-around p-5">
+          <h1 class="text-3xl font-bold">02</h1>
+          <p class="text-2xl font-bold txt-clr py-2">
+            Structured Learning Path
+          </p>
+          <p class="text-sm font-bold">
+            Master Data Structures & Algorithms (DSA), System Design, core
+            subjects, and practical projects – all through premium blog posts
+            and in-depth video solutions.
+          </p>
+        </div>
+        <div class="card w-[400px] h-[300px] justify-around p-5">
+          <h1 class="text-3xl font-bold">03</h1>
+          <p class="text-2xl font-bold txt-clr py-2">Unmatched Content Depth</p>
+          <p class="text-sm font-bold">
+            We prioritize quality content, offering in-depth explanations and a
+            wider range of solved problems in both free and paid courses. Our
+            focus is on developing problem-solving skills through intuitive
+            video explanations.
+          </p>
+        </div>
+      </div>
+
+      <!-- testomanial  -->
+      <div class="people"></div>
+      <!-- instructor  -->
+      <div class="instructor">
+        <div class="top-text thaught w-full flex-col">
+          <h1 class="thaught w-full text-5xl m-2 font-bold">INSTRUCTOR</h1>
+          <h2 class="thaught w-full text-2xl m-2">
+            Meet Our Exceptional Instructor
+          </h2>
+        </div>
+
+        <div class="instructor-card w-[60%] flex">
+          <div class="images w-full rounded-xl">
+            <img
+              class="w-full"
+              src="./images/excited-happy-woman-pointing-sideways.png"
+              alt=""
+            />
+          </div>
+          <div class="text w-full">
+            <div class="name w-full flex justify-center gap-2 my-4">
+              <img
+                class="w-40"
+                src="./images/background_img_for_courses_men.png"
+                alt=""
+              />
+              <div class="personaldetails flex flex-col justify-center">
+                <h1>theNameOftheperson</h1>
+                <h1>workingCompany</h1>
+              </div>
+            </div>
+
+            <ul class="m-4 mt-6 ml-8 list-disc">
+              <li class="m-2">achievements</li>
+              <li class="m-2">roles</li>
+              <li class="m-2">workss</li>
+              <li class="m-2">sociallife</li>
+              <li class="m-2">mastera at</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- faq section  -->
+
+      <section class="bg-white dark:bg-gray-900">
+        <div class="container px-6 py-10 mx-auto">
+          <h1
+            class="text-2xl font-semibold text-gray-800 lg:text-3xl dark:text-white text-center m-8"
+          >
+            FAQ's
+          </h1>
+
+          <hr class="my-8 border-gray-200 dark:border-gray-700" />
+          <div id="parentfaq">
+            <div>
+              <button id="btn12" class="flex items-center focus:outline-none">
+                <h1 class="mx-4 text-xl text-gray-700 dark:text-white">
+                  How can I pay for my appointment ?
+                </h1>
+              </button>
+
+             <div id="infocontent">
+              <div  class="flex mt-8 md:mx-10">
+                <span class="border border-red-500 "></span> 
+                <p class="max-w-3xl px-4 text-gray-500 dark:text-gray-300">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Magni, eum quae. Harum officiis reprehenderit ex quia ducimus
+                  minima id provident molestias optio nam vel, quidem iure
+                  voluptatem, repellat et ipsa.
+                </p>
+              </div>
+             </div>
+            </div>
+
+            <hr class="my-8 border-gray-200 dark:border-gray-700" />
+          </div>
+        </div>
+      </section>
+
+      <!-- faq ends  -->
+      <footer>
+        <div class="footer_container">
+          <div class="leftside">
+            <h1>LearnEsy</h1>
+            <p>
+              The best place to learn Java,Java framework most asked coding
+              <br />interview questions.real interview experiences free of cost.
+            </p>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+          <div class="rightside">
+            <ul>
+              <li class="listhead">Company</li>
+              <li>About us</li>
+              <li>Contact us</li>
+              <li>Privacy Policy</li>
+              <li>Terms & condition</li>
+            </ul>
+
+            <ul>
+              <li class="listhead">Quick access</li>
+              <li>Java</li>
+              <li>Spring boot</li>
+              <li>Frontend</li>
+              <li>Backend</li>
+            </ul>
+            <ul>
+              <li class="listhead">Playlist</li>
+              <li>Core Java</li>
+              <li>Collection framework</li>
+              <li>Spring Boot</li>
+              <li>Advance Java</li>
+            </ul>
+          </div>
+        </div>
+        <h1 class="bottomline">
+          Copyright © 2024 LearnESY | All rights reserved
+        </h1>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
