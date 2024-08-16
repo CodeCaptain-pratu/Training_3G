@@ -1,0 +1,96 @@
+<!-- rgb(248, 4, 86) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragistration page</title>
+    <script src="https://kit.fontawesome.com/fe0b7883a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="wrapper ">
+    <header class="flex justify-around w-full p-3">
+        <div class="logo text-2xl">EasyLearn</div>
+        <nav class="flex justify-center w-100 gap-4">
+            <ul id="main-nav" class="flex justify-center w-100 gap-6 p-0.5 text-xl">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="blogs.html">Blog</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <a id="register" class="p-0.5 text-base rounded text-white ml-4" href="registration.html"><button class="m-1">Join For Free</button></a>
+<!-- bars  -->
+           
+            <div id="bars"> <i class="fa-solid fa-bars text-2xl text-white m-2"></i></div>
+</nav>
+    </header>
+
+    <!-- bars -->
+    <div class="burger show w-full h-full ">
+        <i id="cross" class="float-right fa-solid fa-xmark text-2xl text-white mr-4"></i>
+        <ul class=" text-right flex flex-col justify-center w-100 gap-6 text-xl mt-9 mr-4 text-white">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+    <div class="ragistration_container">
+        <div class="login_container">
+            <h1>Sign up and start learning</h1>
+            <span>Email :</span>
+            <input type="email" name="" id="" placeholder="user@user.com">
+            <span>Password :</span>
+            <input type="password" name="" id="" placeholder="password">
+            <a href="" class="account">Create account</a>
+            <p>Already on LearnEsy ?</p>
+            <a href="">Log in</a>
+        </div>
+    </div>
+    <footer>
+        <div class="footer_container">
+            <div class="leftside">
+                <h1>LearnEsy</h1>
+                <p>The best place to learn Java,Java framework most asked coding <br>interview questions.real interview experiences free of cost.
+                </p>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+            <div class="rightside">
+                    <ul>
+                        <li class="listhead">Company</li>
+                        <li>About us</li>
+                        <li>Contact us</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & condition</li>
+                    </ul>
+                
+                    <ul>
+                        <li class="listhead">Quick access</li>
+                        <li>Java</li>
+                        <li>Spring boot</li>
+                        <li>Frontend</li>
+                        <li>Backend</li>
+                    </ul>
+                    <ul>
+                        <li class="listhead">Playlist</li>
+                        <li>Core Java</li>
+                        <li>Collection framework</li>
+                        <li>Spring Boot</li>
+                        <li>Advance Java</li>
+                    </ul>    
+            </div>
+        </div>
+        <h1 class="bottomline">Copyright © 2024 LearnESY | All rights reserved
+        </h1>
+    </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
