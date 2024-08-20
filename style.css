@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Poppins, sans-serif;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 .txt-clr {
   color: rgb(227, 12, 48);
