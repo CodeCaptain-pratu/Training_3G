@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Poppins, sans-serif;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 .txt-clr {
   color: rgb(227, 12, 48);
@@ -300,6 +300,7 @@ p {
 /* instructor / */
 
 .instructor-card{
+  width: 60%;
   margin: 30px auto;
   box-shadow: 1px 1px 5px 0.5px black;
 border-radius: 10px;
@@ -420,7 +421,7 @@ footer .bottomline {
       margin: 5px;
     }
     .instructor-card{
-      width: 70%;
+      width: 100%;
       
     }
     .personaldetails h1{
@@ -436,7 +437,6 @@ footer .bottomline {
   .instructor-card{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
     
   }
  
@@ -496,8 +496,18 @@ footer .bottomline {
 
 
 /* about responsiveness  */
-
-
+.about-container{
+  padding: 10px 25px;
+}
+.ourmission{
+  padding: 5px 25px;
+}
+.textaboutboxcard{
+  padding: 10px 25px;
+}
+.aboutsectioncard{
+  margin: 10px;
+}
 @media(max-width:768px){
  
 
@@ -509,21 +519,20 @@ footer .bottomline {
       padding: 0px 1px !important;
     }
     .textaboutboxcard{
+      padding: 0px;
+    }
+    .textaboutboxcard{
       padding: 0px 5px;
     }
     .aboutsectioncard{
       flex-wrap: wrap;
-      margin: 2px;
+      margin: 0px;
     }
     .ourmission{
       padding: 0px 5px;
+      font-size: 18px ;
 
     }
-    .ourmission{
-      font-size: 18px
-
-    }
-   
   }
 
 
