@@ -385,11 +385,13 @@ footer .bottomline {
   color: gray;
 }
 .leftside i {
-  /* border: 1.5px solid grey; */
   border-radius: 50px;
   padding: 0.5rem;
   gap: 1rem;
   text-align: center;
+}
+.leftside i {
+  cursor:pointer;
 }
 .rightside {
   display: flex;
@@ -709,6 +711,7 @@ footer .bottomline {
     .categories .category-container .job-category:hover
     {
         box-shadow: 1px 1px 10px black;
+        cursor: pointer;
     }
 
     /* ****************** Job section styling *************** */
@@ -735,6 +738,7 @@ footer .bottomline {
     .job-section-cards:hover
     {
         box-shadow: 1px 1px 5px black;
+        cursor:pointer;
     }
     .job-section-cards .top-job-section
     {

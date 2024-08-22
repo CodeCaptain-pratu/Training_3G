@@ -4,25 +4,25 @@
 document.addEventListener('DOMContentLoaded', () => {
     const cardData = [
         {
-            title: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nemo temporibus aspernatur?',
+            title: 'Working with this web developer has been a seamless experience. Their technical expertise, creativity, and dedication to delivering top-notch solutions make them a standout in their field.',
             image: './images/testimonial_1.jpg',
             name: 'Velsiya Dsouza',
             position:'web developer'
         },
         {
-            title: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nemo temporibus aspernatur?',
+            title: 'This Java developer is exceptional at building scalable, high-performance applications. Their deep understanding of the Java ecosystem and problem-solving ability set them apart.',
             image: './images/testimonial_2.jpg',
             name: 'Niharika sani',
             position:'java developer'
         },
         {
-            title: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nemo temporibus aspernatur?',
+            title: '"This C++ developer has a remarkable talent for solving complex problems with elegant, robust solutions. Their expertise in memory management and algorithm design is second to none.',
             image: './images/testimonial_3.jpg',
             name: 'Jessika lekkar',
             position:'c++ developer'
         },
         {
-            title: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nemo temporibus aspernatur?',
+            title: 'This backend developer consistently delivers robust, high-performance solutions that power our applications seamlessly. Their expertise in optimizing server-side operations is unmatched.',
             image: './images/testimonial_4.jpg',
             name: 'Ruby cassalas',
             position:'backend developer'
@@ -58,8 +58,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   
     function updateSliderPosition() {
-        //let offset=-index*800;
-       //cardsContainer.style.transform = `translateX(${offset}px)`;
         renderCards();
     }
   
@@ -159,7 +157,6 @@ document.addEventListener('DOMContentLoaded', () => {
         </div>
     </div>
   </div>`
-  // console.log(jobCards);
   document.querySelector(".job-section-parent").innerHTML=jobCards;
   });
   
