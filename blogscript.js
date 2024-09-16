@@ -12,17 +12,29 @@ const blogarr = [
       para: "Maximize your learning potential with our bite-sized tips. Discover simple techniques that can make your study sessions more productive and efficient.",
     },
     {
+<<<<<<< HEAD
       img: "./images/blog1.jpeg",
+=======
+      img: "./images/blogimg3.jpg",
+>>>>>>> 553701573f98d308e9c8eba455166691e96409fc
       heading: "Boost Your Brainpower Today",
       para: "Enhance your cognitive abilities with easy-to-implement strategies. Start today and see how small changes can lead to big improvements in your thinking and memory.",
     },
     {
+<<<<<<< HEAD
       img: "./images/blog2.jpeg",
+=======
+      img: "./images/blogimg4.avif",
+>>>>>>> 553701573f98d308e9c8eba455166691e96409fc
       heading: "Learning Hacks You Need to Know",
       para: "Unlock the secrets to faster, smarter learning. These essential hacks will help you retain information better and make the most out of your study time.",
     },
     {
+<<<<<<< HEAD
       img: "./images/blog3.jpeg",
+=======
+      img: "./images/blogimg5.jpg",
+>>>>>>> 553701573f98d308e9c8eba455166691e96409fc
       heading: "Unlock Your Potential with These Tricks",
       para: "Everyone has untapped potential waiting to be discovered. Use our practical tricks to break through barriers and reach new heights in your personal and professional growth.",
     },

@@ -134,7 +134,10 @@ arrfaq.forEach((elem, index) => {
 });
 
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 553701573f98d308e9c8eba455166691e96409fc
